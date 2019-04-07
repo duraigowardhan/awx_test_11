@@ -1,6 +1,8 @@
 - name: Hello World Sample
   hosts: all
+  vars_files:
+    - /vars/external_vars.yml
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World by durai11!"
+        msg: "Hello World by durai11! {{pc_build}}"

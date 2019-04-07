@@ -1,0 +1,2 @@
+pc_build: from_var_file_pc
+aos_build: from_var_file_aos
