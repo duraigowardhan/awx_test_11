@@ -3,4 +3,4 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World by durai11! {{pc_build}}"
+        msg: "Hello World by durai11! {{pc_build}} {{pe_build}}"
