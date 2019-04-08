@@ -1,8 +1,6 @@
 - name: Hello World Sample
   hosts: all
-  vars:
-    pc_build1: "{{pc_build|default(hostvars.onprem.builds.pc_build)}}"
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World by durai11! {{pc_build1}}"
+        msg: "Hello World by durai11! {{pc_build}}"
